@@ -1,0 +1,14 @@
+/* Adiciona espaço para cabeçalho e rodapé fixos */
+main {
+    padding-top: 100px; /* Espaço para o cabeçalho */
+    padding-bottom: 60px; /* Espaço para o rodapé */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  

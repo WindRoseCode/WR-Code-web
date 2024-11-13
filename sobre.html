@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre - WR Code</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Espaçamento para o conteúdo abaixo do cabeçalho fixo */
+    body {
+      padding-top: 100px;
+      padding-bottom: 60px;
+      background-color: #f7f7f7; /* Branco claro */
+      color: #333;
+    }
+
+    /* Estilo para a seção de equipe */
+    .team-section {
+      padding: 50px 0;
+      background-color: #2c3e50; /* Azul escuro */
+    }
+
+    .team-member {
+      text-align: center;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .team-member h5 {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ecf0f1; /* Branco suave */
+    }
+
+    .team-member p {
+      font-size: 14px;
+      color: #bdc3c7; /* Cinza claro */
+    }
+
+    .team-member:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Cabeçalho fixo com fundo roxo e texto branco */
+    header {
+      background-color: #8e44ad; /* Roxo */
+      color: white;
+    }
+
+    header a {
+      color: white;
+    }
+
+    header a:hover {
+      color: #ecf0f1; /* Branco suave */
+    }
+
+    /* Alteração para seções */
+    .text-primary {
+      color: #8e44ad !important; /* Roxo */
+    }
+
+    .text-success {
+      color: #16a085 !important; /* Verde suave */
+    }
+
+    .btn-primary {
+      background-color: #8e44ad; /* Roxo */
+      border-color: #8e44ad;
+    }
+
+    .btn-primary:hover {
+      background-color: #6c3483; /* Roxo mais escuro */
+      border-color: #6c3483;
+    }
+
+    .btn-success {
+      background-color: #16a085; /* Verde suave */
+      border-color: #16a085;
+    }
+
+    .btn-success:hover {
+      background-color: #1abc9c; /* Verde claro */
+      border-color: #1abc9c;
+    }
+
+    /* Ajustes no card */
+    .card {
+      background-color: #ecf0f1; /* Branco suave */
+      border-color: #bdc3c7; /* Cinza claro */
+    }
+
+    .card-title {
+      color: #2c3e50; /* Azul escuro */
+    }
+
+    .card-text {
+      color: #7f8c8d; /* Cinza médio */
+    }
+
+    .btn-outline-primary {
+      border-color: #8e44ad;
+      color: #8e44ad;
+    }
+
+    .btn-outline-primary:hover {
+      background-color: #8e44ad;
+      color: white;
+    }
+
+    /* Melhora o espaçamento e as sombras das cartas */
+    .card-body {
+      padding: 20px;
+    }
+
+    .avatar-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: -60px;
+      position: relative;
+    }
+
+    .avatar-img {
+      border: 4px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    /* Rodapé fixo */
+    footer {
+      background-color: #2c3e50; /* Azul escuro */
+      color: white;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer a {
+      color: #8e44ad; /* Roxo */
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #ecf0f1; /* Branco suave */
+    }
+
+    /* Estilo para a seção de serviços */
+    .services-section {
+      padding: 50px 0;
+      background-color: #ecf0f1; /* Branco suave */
+    }
+
+    .service-card {
+      background-color: #8e44ad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho fixo com botões de navegação -->
+  <header class="text-white text-center p-4 fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="mb-0">WR Code</h1>
+      <nav>
+        <a href="index.html" class="btn btn-primary btn-lg">Home</a>
+        <a href="sobre.html" class="btn btn-primary btn-lg">Sobre</a>
+        <a href="contato.html" class="btn btn-primary btn-lg">Contato</a>
+        <a href="servicos.html" class="btn btn-primary btn-lg">Nossos Serviços</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container my-5 pt-5">
+    <section class="about-section">
+      <h2 class="text-secondary text-center mb-4">Quem Somos</h2>
+      <p class="text-center">
+        A WR Code é uma empresa inovadora que tem como missão ajudar pequenos e médios negócios a prosperarem no mundo digital. Oferecemos soluções tecnológicas de alta qualidade, garantindo a evolução contínua de nossos clientes através do desenvolvimento de sistemas robustos e seguros.
+      </p>
+
+      <h2 class="text-secondary text-center mb-4 mt-5">Nosso Propósito</h2>
+      <p class="text-center">
+        Nosso principal objetivo é proporcionar aos nossos clientes as ferramentas necessárias para otimizar processos e aumentar a eficiência de suas operações. Acreditamos que a tecnologia pode transformar negócios, e nossa visão é ser reconhecida como líder em soluções tecnológicas personalizadas para empresas de diferentes setores.
+      </p>
+
+      <h2 class="text-secondary text-center mb-4 mt-5">Nossos Valores</h2>
+      <ul class="list-unstyled">
+        <li><strong>Inovação:</strong> Estamos sempre à frente, buscando as melhores soluções para o seu negócio.</li>
+        <li><strong>Compromisso:</strong> Cumprimos o que prometemos e nos dedicamos ao sucesso de nossos clientes.</li>
+        <li><strong>Qualidade:</strong> Nossa prioridade é entregar produtos e serviços que superem as expectativas.</li>
+        <li><strong>Transparência:</strong> Valorizamos a comunicação aberta e honesta com todos os nossos parceiros e clientes.</li>
+      </ul>
+    </section>
+  </main>
+
+   <!-- Rodapé -->
+   <footer>
+    <p>&copy; 2024 WR Code | <a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

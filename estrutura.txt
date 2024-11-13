@@ -1,0 +1,26 @@
+website-WR-Code
+├── index.html                   # Página principal (Home)
+├── sobre.html                   # Página "Sobre"
+├── contato.html                 # Página de contato
+├── servicos.html                # Página de serviços
+├── biografia-anthony.html       # Página de biografia de Anthony
+├── biografia-luiz.html          # Página de biografia de Luiz
+├── biografia-joao.html          # Página de biografia de João
+├── biografia-kelmany.html       # Página de biografia de Kelmany
+├── biografia-designer.html      # Página de biografia do Designer
+├── biografia-gabriel.html       # Página de biografia de Gabriel
+├── assets                       # Pasta para armazenar imagens e outros recursos
+│   ├── img
+│   │   ├── anthony-avatar.jpg   # Imagem para o avatar de Anthony
+│   │   ├── luiz-avatar.jpg      # Imagem para o avatar de Luiz
+│   │   ├── joao-avatar.jpg      # Imagem para o avatar de João
+│   │   ├── kelmany-avatar.jpg   # Imagem para o avatar de Kelmany
+│   │   ├── designer-avatar.jpg  # Imagem para o avatar do Designer
+│   │   ├── gabriel-avatar.jpg   # Imagem para o avatar de Gabriel
+│   │   └── logo.png             # Logo ou outras imagens do projeto
+├── css                          # Pasta para armazenar estilos CSS
+│   ├── style.css                # Estilos personalizados para o site
+├── js                           # Pasta para scripts JavaScript
+│   └── script.js                # Scripts JavaScript adicionais, se necessário
+├── README.md                    # Documento com instruções sobre o projeto
+
