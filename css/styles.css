@@ -8,10 +8,9 @@ main {
     font-family: Arial, sans-serif;
     padding-top: 100px;
     padding-bottom: 60px;
-    background-color: #f7f7f7; /* Branco claro */
     color: #333;
   }
-  
+
   h1, h2 {
     font-weight: bold;
   }
@@ -54,21 +53,21 @@ main {
   
       /* Cabeçalho fixo com fundo roxo e texto branco */
       header {
-        background-color: #4d1466; /* Roxo */
-        color: white;
+        background-color: #2c3e50; /* Roxo */
+        color: black;
       }
   
       header a {
-        color: white;
+        color: black;
       }
   
       header a:hover {
-        color: #ecf0f1; /* Branco suave */
+        color: black; /* Branco suave */
       }
   
       /* Alteração para seções */
       .text-primary {
-        color: #8e44ad !important; /* Roxo */
+        color: black !important; /* Roxo */
       }
   
       .text-success {
@@ -76,13 +75,13 @@ main {
       }
   
       .btn-primary {
-        background-color: #4d1466;; /* Roxo */
-        border-color: #8e44ad;
+        background-color: black; 
+        border-color: #2c3e50;
       }
   
       .btn-primary:hover {
-        background-color: #6c3483; /* Roxo mais escuro */
-        border-color: #6c3483;
+        background-color: #365c83; 
+        border-color: #2c3e50;
       }
   
       .btn-success {
@@ -110,13 +109,13 @@ main {
       }
   
       .btn-outline-primary {
-        border-color: #8e44ad;
-        color: #8e44ad;
+        border-color: #2c3e50;
+        color: #2c3e50;
       }
   
       .btn-outline-primary:hover {
         background-color: #8e44ad;
-        color: white;
+        color: black;
       }
   
       /* Melhora o espaçamento e as sombras das cartas */
@@ -153,7 +152,7 @@ main {
       }
   
       footer a {
-        color: #8e44ad; /* Roxo */
+        color: #365c83; /* Roxo */
         text-decoration: none;
       }
   
@@ -168,7 +167,7 @@ main {
       }
   
       .service-card {
-        background-color: #8e44ad;
+        background-color: #365c83;
         color: white;
         text-align: center;
         padding: 20px;
